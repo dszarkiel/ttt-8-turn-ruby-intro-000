@@ -38,6 +38,6 @@ def turn(board)
     move(board, index, character = "X")
   else until valid_move?(board, index) == true
     puts "Please enter 1-9"
-  end
+    break
   end
 end
