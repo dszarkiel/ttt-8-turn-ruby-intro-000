@@ -40,4 +40,5 @@ def turn(board)
   else
     puts "Plese enter 1-9"
   end
+  end
 end
