@@ -37,4 +37,5 @@ def turn(board)
     move(board, index, character = "X")
   else
     puts "Please enter a valid field"
+  end
 end
