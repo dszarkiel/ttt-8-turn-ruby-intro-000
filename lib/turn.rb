@@ -40,4 +40,5 @@ def turn(board)
     until valid_move?(board, index) == true
     puts "Please enter 1-9"
   end
+  end
 end
